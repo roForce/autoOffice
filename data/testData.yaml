@@ -1,0 +1,12 @@
+
+
+#下面用于存放具体的算法块参数
+
+#name: ADD2
+#input_num: 2
+#input_type: AS
+#  output_num: 1
+#  input_type: AS
+
+# yaml文件，文件名为yamlData
+

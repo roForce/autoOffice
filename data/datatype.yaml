@@ -1,0 +1,45 @@
+#下面的参数是用于识别测试参数的取值的
+ElementType:
+  - BOOL
+  - INT
+  - UINT
+  - FLOAT
+MultiType:
+  - AS
+  - BS
+  - IS
+
+#参数的类型
+BOOL:
+  Up: 1
+  Down: 0
+INT:
+  Up: 32767
+  Down: -32768
+UINT:
+  Up: 65535
+  Down: 0
+FLOAT:
+  Up: MAXFLOAT
+  Down: MINFLOAT
+AS:
+  FLOAT:
+    Up: MAXFLOAT
+    Down: MINFLOAT
+  Safety:
+    - 0
+    - 1
+BS:
+  BOOL:
+    Up: 1
+    Down: 0
+  Safety:
+    - 0
+    - 1
+IS:
+  INT:
+    Up: 32767
+    Down: -32768
+  Safety:
+    - 0
+    - 1
